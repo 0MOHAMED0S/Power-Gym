@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/subscribe.css">
+    <link rel="stylesheet" href="./css/about.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/sidepar.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/loader.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="./css/coaches.css">
+    <link rel="stylesheet" href="./css/footer.css">
+</head>
+
+<body>
+
+    <!--Loader-->
+    <div id="loader-wrapper">
+        <!-- <center><h1>Power <span>Gym</span></h1></center> -->
+        <center>
+            <h1>Loading <span>...</span></h1>
+        </center>
+        <div id="loader">
+            <center><i class="fa-solid fa-dumbbell" style="color: rgb(19, 225, 0);"></i></center>
+        </div>
+    </div>
+    <header>
+        <nav>
+            <div class="power">
+                <a href=""><i class="fa-solid fa-dumbbell" style="color: rgb(19, 225, 0);"></i></a>
+                <h1>Power <span>Gym</span></h1>
+            </div>
+            <div>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Login</a></li>
+                    <!-- <li><a href="#">About Us</a></li>
+                    <li><a href="#">Coaches</a></li>
+                    <li><a href="#">Contact us</a></li> -->
+                </ul>
+                <hr id="hr_home">
+            </div>
+
+            <div class="icons">
+                <div class="fill">
+                    <a href="#"> <i id="i" class="bi bi-bell-fill"></i></a>
+                </div>
+                <div class="fill">
+                    <i id="i" class="bi bi-list open-btn" onclick="toggleSidebar()"></i>
+                </div>
+
+
+                <div id="sidebar">
+                    <!-- <button class="close-btn" onclick="closeSidebar()">✕ </button> -->
+                    <hr id="hr_side">
+                    <a href=""> FAVORITES</a>
+                    <hr id="hr_side">
+                    <a href="">ORDERS</a>
+                    <hr id="hr_side">
+                    <a href="">DASHBOARD</a>
+                    <hr id="hr_side">
+                    <a href="">ABOUT US</a>
+                    <hr id="hr_side">
+                    <a href=""> CONTACT US</a>
+                    <hr id="hr_side">
+                    <a href="">LOGIN</a>
+                    <hr id="hr_side">
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <!--  Home -->
+    <div class="container">
+        <div class="start">
+            <h1 class="monoton-regular">POWER</h1>
+            <h2 class="monoton-regular">GYm</h2>
+            <a href="#start">Start To Day <i class="fa-solid fa-arrow-turn-down" style="color: #ffffff;"></i></a>
+        </div>
+    </div>
+    <br>
+    <hr id="start">
+    <!--  About Section-->
+    <section>
+        <!-- <div class="text">
+        <center>
+            <h3 class="bebas-neue-regular">About US</h3>
+        </center>
+    </div> -->
+        <div class="about">
+            <div class="one">
+                <div class="oo">
+                    <img src="./files/images/138f43c3-93f6-4653-aa78-5b7c4c549971.jpg"
+                        style="width: 300px;height: 200px;margin: 20px;border-radius: 5px;">
+                    <img src="./files/images/7e430418-6cd8-4dcd-919c-290dcabb31ff.jpg" class="three">
+                </div>
+                <div class="ooo">
+                    <img src="./files/images/7e4e0b2d-cba2-461b-aba7-2e3204ba614f.jpg" class="two">
+                </div>
+            </div>
+            <div class="text">
+                <h3 class="bebas-neue-regular"> <i class="fa-solid fa-dumbbell" style="color: rgb(255, 255, 255);"></i>
+                    About US </h3>
+                <br>
+                <br>
+                <h1 class="bebas-neue-regular">Welcome <span>To</span> Power <span>Gym</span></h1>
+                <p>At power gem ,we balive that fitnesd is not just a physical streght ;<br> it's about nurturing
+                    a<strong>.</strong>community,achieving personl goals <br>,and embarcing healthier lifestyle.since
+                    our
+                    incetion ,<br>we've been dedicated to providing adyamic and inclusive environment <br>there
+                    individuels
+                    of all fitness level can thrive.</p>
+                <center class="about_icons">
+                    <div class="circle">
+                        <i class="fa-solid fa-medal  fa-xl"></i>
+                    </div>
+                    <div class="circle">
+                        <i class="fa-solid fa-bicycle fa-xl"></i>
+                    </div>
+                    <div class="circle">
+                        <i class="fa-solid fa-stopwatch-20 fa-xl"></i>
+                    </div>
+                    <div class="circle">
+                        <i class="fa-solid fa-cart-shopping fa-xl"></i>
+                    </div>
+                    <div class="circle">
+                        <i class="fa-solid fa-arrow-trend-up fa-xl"></i>
+                    </div>
+                </center>
+            </div>
+        </div>
+    </section>
+    <br>
+    <hr>
+    <br>
+
+    <!-- coaches Section-->
+    <div class="custom-container">
+        <div id="coaches_body">
+            <section class="sl-container">
+                <div class="sli-title">
+                    <h1 class="bebas-neue-regular">power <span class="bebas-neue-regular">coaches</span></h1>
+                </div>
+                <div class="sli-content">
+                    <div class="sli-con-ul">
+                        <ul class="sli-list">
+                            <li class="item-card">
+                                <div class="cont-card">
+                                    <div class="cont-img">
+                                        <img src="./files/images/coaches/team-1.jpg" alt="" />
+                                    </div>
+                                    <div class="cont-title">
+                                        <h4>Ryan Bradley</h4>
+                                        <p>Fitness Instructor</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="item-card">
+                                <div class="cont-card">
+                                    <div class="cont-img">
+                                        <img src="./files/images/coaches/team-2.jpg" alt="" />
+                                    </div>
+                                    <div class="cont-title">
+                                        <h4>Michael Semple</h4>
+                                        <p>Fitness Instructor</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="item-card">
+                                <div class="cont-card">
+                                    <div class="cont-img">
+                                        <img src="./files/images/coaches/team-3.jpg" alt="" />
+                                    </div>
+                                    <div class="cont-title">
+                                        <h4>Jose Hawthorne</h4>
+                                        <p>Nutritionist</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="item-card">
+                                <div class="cont-card">
+                                    <div class="cont-img">
+                                        <img src="./files/images/coaches/team-4.jpg" alt="" />
+                                    </div>
+                                    <div class="cont-title">
+                                        <h4>Timothy Andrews</h4>
+                                        <p>Fitness Instructor</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="item-card">
+                                <div class="cont-card">
+                                    <div class="cont-img">
+                                        <img src="./files/images/coaches/team-5.jpg" alt="" />
+                                    </div>
+                                    <div class="cont-title">
+                                        <h4>Deborah Watkins</h4>
+                                        <p>Fitness Instructor</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="item-card">
+                                <div class="cont-card">
+                                    <div class="cont-img">
+                                        <img src="./files/images/coaches/team-6.jpg" alt="" />
+                                    </div>
+                                    <div class="cont-title">
+                                        <h4>David Garcia</h4>
+                                        <p>Personal Trainer</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="item-card">
+                                <div class="cont-card">
+                                    <div class="cont-img">
+                                        <img src="./files/images/coaches/team-7.jpg" alt="" />
+                                    </div>
+                                    <div class="cont-title">
+                                        <h4>Kathy Vangilder</h4>
+                                        <p>Nutritionist</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="cor-rev-next">
+                        <span id="next" class="next">
+                            <i class="fa-duotone fa-chevron-right"></i>
+                        </span>
+                        <span id="prev" class="rever">
+                            <i class="fa-duotone fa-chevron-left"></i>
+                        </span>
+                    </div>
+                    <div id="indicators" class="indicators"></div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <!--  Subscribe Section -->
+    <section>
+        <center>
+            <h4 class="bebas-neue-regular" style="color: #13ff00;"> Our Pricing</h4>
+            <h2 class="bebas-neue-regular"> Our Sprcial Monthly <i class="fa-solid fa-calendar-days"
+                    style="color: #13ff00;"></i></h2>
+            <h2 class="bebas-neue-regular">Traning Package <i class="fa-solid fa-bicycle" style="color: #13ff00;"></i>
+            </h2>
+        </center>
+        <div class="container2">
+            <div class="card_section">
+                <div class="card">
+                    <div class="card_head">
+                        <h2 class="bebas-neue-regular">Gold</h2>
+                        <h2 id="gray" class="bebas-neue-regular">$60</h2>
+                    </div>
+                    <div class="card_body">
+                        <div class="features">
+                            <i class="fa-solid fa-star fa-lg" style="color: #13ff00;"></i>
+                            <h2 class="nanum-gothic-regular">Traning Package</h2>
+                        </div>
+                        <div class="features">
+                            <i class="fa-solid fa-star fa-lg" style="color: #13ff00;"></i>
+                            <h2 class="nanum-gothic-regular">Traning Package</h2>
+                        </div>
+                        <div class="features">
+                            <i class="fa-solid fa-star fa-lg" style="color: #13ff00;"></i>
+                            <h2 class="nanum-gothic-regular">Traning Package</h2>
+                        </div>
+                        <div class="features">
+                            <i class="fa-solid fa-star fa-lg" style="color: #13ff00;"></i>
+                            <h2 class="nanum-gothic-regular">Traning Package</h2>
+                        </div>
+                    </div>
+                    <div>
+                        <center>
+                            <button class="Subscripe">Subscripe</button>
+                        </center>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_head">
+                        <h2 class="bebas-neue-regular">Gold</h2>
+                        <h2 id="gray" class="bebas-neue-regular">$60</h2>
+                    </div>
+                    <div class="card_body">
+                        <div class="features">
+                            <i class="fa-solid fa-star fa-lg" style="color: #13ff00;"></i>
+                            <h2 class="nanum-gothic-regular">Traning Package</h2>
+                        </div>
+                        <div class="features">
+                            <i class="fa-solid fa-star fa-lg" style="color: #13ff00;"></i>
+                            <h2 class="nanum-gothic-regular">Traning Package</h2>
+                        </div>
+                        <div class="features">
+                            <i class="fa-solid fa-star fa-lg" style="color: #13ff00;"></i>
+                            <h2 class="nanum-gothic-regular">Traning Package</h2>
+                        </div>
+                        <div class="features">
+                            <i class="fa-solid fa-star fa-lg" style="color: #13ff00;"></i>
+                            <h2 class="nanum-gothic-regular">Traning Package</h2>
+                        </div>
+                    </div>
+                    <div>
+                        <center>
+                            <button class="Subscripe">Subscripe</button>
+                        </center>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_head">
+                        <h2 class="bebas-neue-regular">Gold</h2>
+                        <h2 id="gray" class="bebas-neue-regular">$60</h2>
+                    </div>
+                    <div class="card_body">
+                        <div class="features">
+                            <i class="fa-solid fa-star fa-lg" style="color: #13ff00;"></i>
+                            <h2 class="nanum-gothic-regular">Traning Package</h2>
+                        </div>
+                        <div class="features">
+                            <i class="fa-solid fa-star fa-lg" style="color: #13ff00;"></i>
+                            <h2 class="nanum-gothic-regular">Traning Package</h2>
+                        </div>
+                        <div class="features">
+                            <i class="fa-solid fa-star fa-lg" style="color: #13ff00;"></i>
+                            <h2 class="nanum-gothic-regular">Traning Package</h2>
+                        </div>
+                        <div class="features">
+                            <i class="fa-solid fa-star fa-lg" style="color: #13ff00;"></i>
+                            <h2 class="nanum-gothic-regular">Traning Package</h2>
+                        </div>
+                    </div>
+                    <div>
+                        <center>
+                            <button class="Subscripe">Subscripe</button>
+                        </center>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <center>
+            <button class="see_more">See More <i class="fa-solid fa-arrow-right"></i></button>
+        </center>
+    </section>
+    <br>
+    <hr>
+    <br>
+
+    <!--Contact Section-->
+    <section id="con_section">
+        <center>
+            <h1 style="color:#13ff00;" class="bebas-neue-regular"><i class="bi bi-envelope-check"></i>Contact With Us
+            </h1>
+        </center>
+        <div class="marg">
+            <iframe style="border:0; width: 100%; height: 350px;"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20034.71602729243!2d31.171930170950176!3d27.1772118886152!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14450be607cb7bcd%3A0xba699162bfc01112!2sAsyut%2C%20Al%20Hamraa%20Ath%20Thaneyah%2C%20El%20Fateh%2C%20Assiut%20Governorate!5e0!3m2!1sen!2seg!4v1709152618669!5m2!1sen!2seg"
+                frameborder="0" allowfullscreen></iframe>
+            <div class="half">
+                <div class="con_card">
+                    <div class="inf">
+                        <div><i class="bi bi-geo-alt"></i></div>
+                        <div>
+                            <h4>Location:</h4>
+                            <p>Egypt Asuit</p>
+                        </div>
+                    </div>
+                    <div class="inf">
+                        <div><i class="bi bi-envelope"></i></div>
+                        <div>
+                            <h4>Email:</h4>
+                            <p>msa0back@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="inf">
+                        <div><i class="bi bi-telephone"></i></div>
+                        <div>
+                            <h4>Call:</h4>
+                            <p>+20 111 056 2097</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="card2" action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="b3ad8481-ec5d-4180-b5c8-d34084032a70">
+                    <div class="row1">
+                        <div>
+                            <label for="username">Your Name</label>
+                            <input type="text" name="name" required>
+                        </div>
+                        <div>
+                            <label for="email">Your Email</label>
+                            <input type="email" name="email" required>
+                        </div>
+                    </div>
+                    <div class="row2">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" name="message" rows="5" required></textarea>
+                    </div>
+                    <br>
+                    <center><button type="submit">Send Message</button></center>
+                </form>
+            </div>
+        </div>
+        <center class="social">
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-messenger"></i></a>
+            <a href="#"><i class="bi bi-whatsapp"></i></a>
+            <a href="#"><i class="bi bi-twitter-x"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+        </center>
+    </section>
+
+    <!--Footer-->
+    <footer>
+
+        <div class="icon">
+            <a href=""><svg id="s1" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 320 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc. -->
+                    <path
+                        d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z" />
+                </svg>
+                <a href=""><svg id="s2" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 576 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc. -->
+                        <path
+                            d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z" />
+                    </svg></a>
+                <a href=""><svg id="s3" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 512 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc. -->
+                        <path
+                            d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z" />
+                    </svg></a>
+                <a href=""><svg id="s4" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc. -->
+                        <path
+                            d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+                    </svg></a>
+                <a href=""><svg id="s5" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc. -->
+                        <path
+                            d="M448,209.91a210.06,210.06,0,0,1-122.77-39.25V349.38A162.55,162.55,0,1,1,185,188.31V278.2a74.62,74.62,0,1,0,52.23,71.18V0l88,0a121.18,121.18,0,0,0,1.86,22.17h0A122.18,122.18,0,0,0,381,102.39a121.43,121.43,0,0,0,67,20.14Z" />
+                    </svg></a>
+                <a href=""><svg id="s4" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc. -->
+                        <path
+                            d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+                    </svg></a>
+        </div>
+        <div class="foot">
+
+            <p>
+                <a> Merch Return/Exchange Policy </a>-
+                <a> Terms & Conditions</a> -
+                <a> Privacy Policy </a>-
+                <a> Web Accessibility Statenent </a>
+                <br>
+                Design and by <a>Ra3d</a>
+            </p>
+        </div>
+
+    </footer>
+
+    <script src="./js/coaches.js"></script>
+    <script src="./js/sidebar.js"> </script>
+    <script src="./js/loader.js"></script>
+</body>
+
+</html>
