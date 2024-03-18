@@ -15,7 +15,7 @@
   /* Defines the styles for the sl-container class */
   .sl-container {
     width: 100%;
-    height: 100vh;
+    height: 75vh;
     padding: 25px 75px;
     display: flex;
     flex-direction: column;

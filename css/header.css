@@ -11,6 +11,9 @@ header{
     position: fixed;
     background-image: linear-gradient(-6deg, #28ff004f 29%, #ffe6fa00 29%);
 }
+#hh{
+    padding-right: 90px;
+}
 nav div{
     padding: 0;
 }
@@ -120,5 +123,8 @@ nav .power h1 span{
 @media screen and (max-width: 600px) {
     #hr_home{
         width: 0;
+    }
+    #hh{
+        padding-right: 48px;
     }
 }
