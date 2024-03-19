@@ -14,6 +14,7 @@ header{
 #hh{
     padding-right: 90px;
 }
+
 nav div{
     padding: 0;
 }
@@ -126,5 +127,8 @@ nav .power h1 span{
     }
     #hh{
         padding-right: 48px;
+    }
+    nav .power{
+        gap: 8px;
     }
 }

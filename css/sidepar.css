@@ -24,7 +24,9 @@
     display: block;
     transition: 0.5s;
 }
-
+#sidebar a.active{
+    background-color:#00bb00 ;
+}
 #sidebar a:hover {
     background-color: #00bb00;
     /* background-image: linear-gradient(325deg, #28ff0000 29%, #28ff004f 29%); */

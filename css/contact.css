@@ -82,6 +82,7 @@ h6 {
 
 #con_section .marg {
     margin-left: 50px;
+    text-align: center;
 }
 
 #con_section .body {
@@ -213,12 +214,15 @@ h6 {
 #con_section iframe {
     width: 100%;
     background: #fff;
-    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
     margin-top: 50px;
-    box-shadow: 0 0 0 0.25rem rgb(19, 225, 0);
+    box-shadow: 0 0 15px rgb(19, 225, 0);
     width: 100%;
+    border:0; 
+    height: 350px;
 }
-
+.start_s{
+    text-align: start;
+}
 #con_section .social {
     display: flex;
     justify-content: center;
@@ -379,6 +383,11 @@ h6 {
 }
 
 @media screen and (max-width: 600px) {
+    #con_section iframe {
+        width: 93%;
+        height: 261px;
+        box-shadow: 0 0 15px rgb(19, 225, 0);
+    }
     #con_section {
         margin: 0px;
         border-radius: 136px;

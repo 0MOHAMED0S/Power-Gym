@@ -45,7 +45,7 @@
             </div>
             <div id="hh">
                 <ul>
-                    <li><a href="#">Home</a></li>
+                    <li><a style="color: rgb(19, 225, 0);" href="./index.html">Home</a></li>
                     <li><a href="#">Login</a></li>
                     <!-- <li><a href="#">About Us</a></li>
                     <li><a href="#">Coaches</a></li>
@@ -61,22 +61,26 @@
                 <div class="fill">
                     <i id="i" class="bi bi-list open-btn" onclick="toggleSidebar()"></i>
                 </div>
-
-
                 <div id="sidebar">
                     <!-- <button class="close-btn" onclick="closeSidebar()">✕ </button> -->
                     <hr id="hr_side">
-                    <a href=""> FAVORITES</a>
+                    <a href="">DASHBOARD</a>
+                    <hr id="hr_side">
+                    <a href="#start">ABOUT US</a>
+                    <hr id="hr_side">
+                    <a href="#coach">Coaches</a>
+                    <hr id="hr_side">
+                    <a href="#pack">Packages</a>
+                    <hr id="hr_side">
+                    <a href="#btn_c">CONTACT US</a>
+                    <hr id="hr_side">
+                    <a  href=""> FAVORITES</a>
                     <hr id="hr_side">
                     <a href="">ORDERS</a>
                     <hr id="hr_side">
                     <a href="">DASHBOARD</a>
                     <hr id="hr_side">
-                    <a href="">ABOUT US</a>
-                    <hr id="hr_side">
-                    <a href=""> CONTACT US</a>
-                    <hr id="hr_side">
-                    <a href="">LOGIN</a>
+                    <a href="">Products</a>
                     <hr id="hr_side">
                 </div>
             </div>
@@ -87,12 +91,12 @@
     <div class="container">
         <div class="start">
             <h1 class="monoton-regular">POWER</h1>
-            <h2 class="monoton-regular">GYm</h2>
+            <h2 class="monoton-regular">GYM</h2>
             <a href="#start">Start To Day <i class="fa-solid fa-arrow-turn-down" style="color: #ffffff;"></i></a>
         </div>
     </div>
-    <br>
-    <hr id="start">
+    <br id="start">
+    <hr >
     <!--  About Section-->
     <section>
         <!-- <div class="text">
@@ -116,7 +120,7 @@
                     About US </h3>
                 <br>
                 <br>
-                <h1 class="bebas-neue-regular">Welcome <span>To</span> Power <span>Gym</span></h1>
+                <h1 class="bebas-neue-regular">Welcome <span>TO</span> Power <span>GYM</span></h1>
                 <p>At power gem ,we balive that fitnesd is not just a physical streght ;<br> it's about nurturing
                     a<strong>.</strong>community,achieving personl goals <br>,and embarcing healthier lifestyle.since
                     our
@@ -143,7 +147,7 @@
             </div>
         </div>
     </section>
-    <br>
+    <br id="coach">
     <hr>
     <br>
 
@@ -249,7 +253,7 @@
             </section>
         </div>
     </div>
-    <br>
+    <br id="pack">
     <hr>
     <br>
     <!--  Subscribe Section -->
@@ -356,14 +360,14 @@
         <br>
         <br>
         <br>
-        <center>
+        <center >
             <button class="see_more">See More <i class="fa-solid fa-arrow-right"></i></button>
         </center>
     </section>
-    <br>
+
+    <br id="btn_c">
     <hr>
     <br>
-
     <!--Contact Section-->
     <section id="con_section">
         <center>
@@ -371,28 +375,28 @@
             </h1>
         </center>
         <div class="marg">
-            <iframe style="border:0; width: 100%; height: 350px;"
+            <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20034.71602729243!2d31.171930170950176!3d27.1772118886152!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14450be607cb7bcd%3A0xba699162bfc01112!2sAsyut%2C%20Al%20Hamraa%20Ath%20Thaneyah%2C%20El%20Fateh%2C%20Assiut%20Governorate!5e0!3m2!1sen!2seg!4v1709152618669!5m2!1sen!2seg"
                 frameborder="0" allowfullscreen></iframe>
             <div class="half">
                 <div class="con_card">
                     <div class="inf">
                         <div><i class="bi bi-geo-alt"></i></div>
-                        <div>
+                        <div class="start_s">
                             <h4>Location:</h4>
                             <p>Egypt Asuit</p>
                         </div>
                     </div>
                     <div class="inf">
                         <div><i class="bi bi-envelope"></i></div>
-                        <div>
+                        <div class="start_s">
                             <h4>Email:</h4>
                             <p>msa0back@gmail.com</p>
                         </div>
                     </div>
                     <div class="inf">
                         <div><i class="bi bi-telephone"></i></div>
-                        <div>
+                        <div class="start_s">
                             <h4>Call:</h4>
                             <p>+20 111 056 2097</p>
                         </div>
@@ -401,11 +405,11 @@
                 <form class="card2" action="https://api.web3forms.com/submit" method="POST">
                     <input type="hidden" name="access_key" value="b3ad8481-ec5d-4180-b5c8-d34084032a70">
                     <div class="row1">
-                        <div>
+                        <div class="start_s">
                             <label for="username">Your Name</label>
                             <input type="text" name="name" required>
                         </div>
-                        <div>
+                        <div class="start_s">
                             <label for="email">Your Email</label>
                             <input type="email" name="email" required>
                         </div>
@@ -480,6 +484,9 @@
     <script src="./js/coaches.js"></script>
     <script src="./js/sidebar.js"> </script>
     <script src="./js/loader.js"></script>
+<script src="./js/main.js"></script>
+
 </body>
 
 </html>
+

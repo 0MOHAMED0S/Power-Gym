@@ -43,7 +43,7 @@
 
 .container .start a {
     text-decoration: none;
-    font-size: 22px;
+    font-size: 18px;
     margin-top: 7%;
     margin-left: 65%;
     padding: 20px;
@@ -59,7 +59,6 @@
 }
 
 .container .start a:hover {
-    border: 2px solid var(--colr-gren);
     box-shadow:
         -4px -5px 2px rgba(19, 225, 0, 0.451),
         -4px 5px 2px rgba(19, 225, 0, 0.451),
