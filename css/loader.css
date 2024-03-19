@@ -13,6 +13,9 @@
     z-index: 999;
     background-image: linear-gradient(116deg, #28ff001f 51%, #ffe6fa00 29%);
 }
+#loader-wrapper *, ::after, ::before {
+    box-sizing:content-box;
+}
 #loader-wrapper center h1{
 color: #ffffff;
 font-size: 25px;
