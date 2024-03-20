@@ -29,7 +29,7 @@ body {
     margin-top: 30px;
     gap: 30px;
     width:100%;
-    margin:30px auto 0;
+    margin: 79px auto 0;
 }
 .card {
     min-width: 234px;
@@ -106,4 +106,27 @@ body {
     font-family: "Nanum Gothic", sans-serif;
     font-weight: 400;
     font-style: normal;
+}
+
+
+
+
+@media screen and (max-width: 1300px) {
+
+}
+
+@media screen and (max-width: 1000px) {
+
+}
+
+@media screen and (max-width: 805px) {
+    .card {
+        min-width: 200px;
+        padding: 30px 50px 0px 50px;
+        min-height: 435px;
+    }    
+}
+
+@media screen and (max-width: 600px) {
+
 }
